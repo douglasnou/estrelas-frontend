@@ -1,0 +1,595 @@
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: white;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    border: 2px solid white;
+    border-radius: 20px;
+
+    background: linear-gradient(to top, pink, white);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.clientes-cadastro {
+    width: 50%;
+    height: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 400px;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    button {
+        width: 100%;
+        height: 30px;
+        background: pink;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-weight: 700;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &:hover {
+            background: violet;
+        }
+    }
+}
+
+.clientes-lista {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    li {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+
+        &:hover {
+            h3 {
+                text-decoration: underline;
+            }
+        }
+
+        button {
+            width: 40%;
+            height: 30px;
+            margin: 5px auto;
+            background: var(--text);
+            border: 1px solid white;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid var(--text);
+            }
+
+        }
+    }
+}
+
+.clientes-dados {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    button {
+        width: 40%;
+        height: 30px;
+        margin: 5px auto;
+        background: var(--text);
+        border: 1px solid white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &:hover {
+            background: white;
+            border: 1px solid var(--text);
+        }
+    }
+}
+
+.clientes-edit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-weight: 700;
+
+    input {
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 400px;
+        height: 25px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    button {
+        width: 40%;
+        height: 30px;
+        margin: 5px 20px;
+        background: var(--text);
+        border: 1px solid white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &:hover {
+            background: white;
+            border: 1px solid var(--text);
+        }
+    }
+}
+
+.pagamentos-adicionar {
+    width: 50%;
+    height: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+
+
+        input {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 400px;
+            height: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            height: 30px;
+            background: violet;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-weight: 700;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid violet;
+            }
+        }
+    }
+}
+
+.pagamentos-edit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+
+        font-weight: 700;
+
+
+        input {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 5px auto;
+        }
+
+        button {
+            width: 40%;
+            height: 30px;
+            margin: 5px 20px;
+            background: var(--text);
+            border: 1px solid white;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid var(--text);
+            }
+        }
+    }
+}
+
+.lista {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+        width: 40%;
+        height: 30px;
+        margin: 5px auto;
+        background: var(--text);
+        border: 1px solid white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &:hover {
+            background: white;
+            border: 1px solid var(--text);
+        }
+    }
+
+    li {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+
+        button {
+            width: 40%;
+            height: 30px;
+            margin: 5px auto;
+            background: var(--text);
+            border: 1px solid white;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid var(--text);
+            }
+        }
+    }
+}
+
+.produtos-add {
+    width: 50%;
+    height: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+
+
+        input {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 400px;
+            height: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            height: 30px;
+            background: violet;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-weight: 700;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid violet;
+            }
+        }
+    }
+}
+
+.produtos-edit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+
+        font-weight: 700;
+
+
+        input {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 5px auto;
+        }
+
+        button {
+            width: 40%;
+            height: 30px;
+            margin: 5px 20px;
+            background: var(--text);
+            border: 1px solid white;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid var(--text);
+            }
+        }
+    }
+}
+
+.vendas-add {
+    width: 50%;
+    height: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+
+
+        input {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 400px;
+            height: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            height: 30px;
+            background: violet;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-weight: 700;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid violet;
+            }
+        }
+    }
+}
+
+.vendas-edit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+
+        font-weight: 700;
+
+
+        input {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 5px auto;
+        }
+
+        button {
+            width: 40%;
+            height: 30px;
+            margin: 5px 20px;
+            background: var(--text);
+            border: 1px solid white;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid var(--text);
+            }
+        }
+    }
+}
+
+.gastos-add {
+    width: 50%;
+    height: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+
+
+        input {
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            width: 400px;
+            height: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            height: 30px;
+            background: violet;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-weight: 700;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            &:hover {
+                background: white;
+                border: 1px solid violet;
+            }
+        }
+    }
+}
+
+.gastos-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+
+    font-weight: 700;
+
+
+    input {
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 200px;
+        height: 25px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    button {
+        width: 40%;
+        height: 30px;
+        margin: 5px 20px;
+        background: var(--text);
+        border: 1px solid white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &:hover {
+            background: white;
+            border: 1px solid var(--text);
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .clientes-cadastro,
+    .pagamentos-adicionar,
+    .produtos-add,
+    .vendas-add,
+    .gastos-add {
+        width: 90%;
+        gap: 5px;
+    }
+
+    .clientes-cadastro input,
+    .pagamentos-adicionar form input,
+    .produtos-add form input,
+    .vendas-add form input,
+    .gastos-add form input {
+        width: 90%;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .clientes-cadastro button,
+    .pagamentos-adicionar form button,
+    .produtos-add form button,
+    .vendas-add form button,
+    .gastos-add form button {
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .clientes-lista li,
+    .lista li {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+
+    .clientes-lista li button,
+    .lista li button {
+        width: 90%;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .clientes-dados button,
+    .clientes-edit button,
+    .pagamentos-edit form button,
+    .produtos-edit form button,
+    .vendas-edit form button,
+    .gastos-edit button {
+        width: 90%;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .clientes-edit input,
+    .pagamentos-edit form input,
+    .produtos-edit form input,
+    .vendas-edit form input,
+    .gastos-edit input {
+        width: 90%;
+        font-size: 14px;
+    }
+}
